@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHugeInteger", "CHugeInteger\CHugeInteger.vcproj", "{7031E20F-1C73-45D1-A21B-AEA78388A356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7031E20F-1C73-45D1-A21B-AEA78388A356}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7031E20F-1C73-45D1-A21B-AEA78388A356}.Debug|Win32.Build.0 = Debug|Win32
+		{7031E20F-1C73-45D1-A21B-AEA78388A356}.Release|Win32.ActiveCfg = Release|Win32
+		{7031E20F-1C73-45D1-A21B-AEA78388A356}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

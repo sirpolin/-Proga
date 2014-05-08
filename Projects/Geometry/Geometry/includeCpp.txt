@@ -1,0 +1,7 @@
+#include "Vector.cpp"
+#include "Point.cpp"
+#include "Segment.cpp"
+#include "main.cpp"
+#include "Circle.cpp"
+#include "Ray.cpp"
+#include "Polygon.cpp"
