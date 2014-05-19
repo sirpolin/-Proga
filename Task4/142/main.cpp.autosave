@@ -1,0 +1,13 @@
+#include <iostream>
+#include <unordered_map>
+#include <deque>
+using namespace std;
+
+int main() {
+    int m;
+    cin >> m;
+    unordered_multimap <int> s;
+    
+    cout << "Hello World!" << endl;
+    return 0;
+}

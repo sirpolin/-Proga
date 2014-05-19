@@ -202,21 +202,12 @@ int main(int argc, char *argv[]) {
                 max = result[i][j];
         }
 
-    QApplication a(argc, argv);
+    //QApplication a(argc, argv);
     QPixmap pic (xSize, ySize);
     QPainter painter;
     painter.begin(&pic);
     QPen pen (Qt::red,1,Qt::SolidLine);
     QColor my_color;
-
-//    this is a visualization of gradient
-
-//    for (double i = 0; i <= 1; i+= 1.0/500) {
-//        my_color.setHsvF(i, 1, 0.75);
-//        pen.setColor(my_color);
-//        painter.setPen(pen); // Настройки рисования
-//        painter.drawLine(0, (int)(i * 500), 800, (int)(i * 500));
-//    }
 
     for (int i = 0; i < xSize; ++i)
         for (int j = 0; j < ySize; ++j) {
@@ -225,18 +216,10 @@ int main(int argc, char *argv[]) {
             painter.setPen(pen);
             painter.drawPoint(i, j);
         }
-/*
-    qreal scale_X = 800.0 / xSize;
-    qreal scale_Y = 600.0 / ySize;
 
-
-
-    std::cout << scale_X << " " << scale_Y;
-    painter.scale(scale_X, scale_Y);*/
     painter.end();
     QFile file("picture.png");
     file.open(QIODevice::WriteOnly);
     pic.save(&file, "PNG");
-    //return a.exec();
     return 0;
 }
